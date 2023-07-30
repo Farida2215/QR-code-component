@@ -1,0 +1,44 @@
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color:hsl(212, 45%, 89%);
+  }
+
+
+  .container {
+    width: 15rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: .8rem;
+    color: hsl(218, 44%, 22%);
+    font-family: 'Outfit', sans-serif;
+    border: 1px solid #ffffff;
+    border-radius: 8%;
+    text-align: center;
+  }
+  p{
+    color: hsl(220, 15%, 55%);
+    opacity: 50%;
+    margin-top: 0px;
+    font-size: smaller;
+    padding-bottom: 1rem;
+  }
+
+  img{
+    border-radius: 7%;
+  }
